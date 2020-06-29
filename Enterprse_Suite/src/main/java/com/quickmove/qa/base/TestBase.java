@@ -20,8 +20,8 @@ public class TestBase {
 	{
 		try {
 			prop =new Properties();
-		
-		FileInputStream  fis= new FileInputStream("C:\\Users\\Admin\\eclipse-workspace\\Enterprse_Suite\\src\\main\\java\\com\\quickmove\\configuration\\config.properties");
+		//C:\Users\MYPC\git\Enterprise_suite\Enterprse_Suite\src\main\java\com\quickmove\TestData\TestData.xlsx
+		FileInputStream  fis= new FileInputStream("C:\\Users\\MYPC\\git\\Enterprise_suite\\Enterprse_Suite\\src\\main\\java\\com\\quickmove\\configuration\\config.properties");
 			prop.load(fis);
 		} catch(FileNotFoundException e) {
 			e.printStackTrace();
@@ -36,7 +36,7 @@ public class TestBase {
 		if(Browsername.equalsIgnoreCase("chrome"))
 	
 			{
-				System.setProperty("webdriver.chrome.driver","C://Users//Admin//Downloads//GECKODRIVER//ChromeDriver.exe");
+				System.setProperty("webdriver.chrome.driver","D:\\chromedriver\\ChromeDriver.exe");
 				 driver = new ChromeDriver();
 			}
 			else if(Browsername.equalsIgnoreCase("firefox"))

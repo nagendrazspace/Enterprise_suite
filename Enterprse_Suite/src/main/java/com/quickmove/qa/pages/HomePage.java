@@ -23,7 +23,13 @@ public class HomePage extends TestBase{
 	
 	@FindBy(xpath="//a[@id='12']")
 	WebElement ClickOnAccountModulelink;
-	
+	@FindBy(xpath="//a[@id='14']")
+	WebElement ClickOnHR;
+	public SettingPage ClickOnHR()
+	{
+		ClickOnHR.click();//if we are clicking  on link then it should return landing page object
+		return new SettingPage();
+	}
 	public SettingPage clickonsettinglink()
 	{
 		ClickOnsettingButtonlink.click();//if we are clicking  on link then it should return landing page object

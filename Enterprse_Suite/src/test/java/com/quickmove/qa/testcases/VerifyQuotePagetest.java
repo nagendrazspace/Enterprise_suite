@@ -34,7 +34,7 @@ public class VerifyQuotePagetest  extends TestBase{
 			  homepage.clickonsalesmodule();
 			  costingpage=new CostingPage();
 			  homepage.clickonhomepgesidemenu();
-			  homepage.ClickoncostingLink();
+	//		  homepage.ClickoncostingLink();
 			  quotepage=new QuotePage();
 }
 	 @Test

@@ -42,6 +42,21 @@ public class AddRoomSettingpage extends TestBase{
 	@FindBy(xpath="//a[@id='ctl00_ContentPlaceHolder1_imgbtnCategorysave']")
 	WebElement Clickonsavebutton;
 	
+	@FindBy(xpath="//span[contains(text(),'User Management')]")
+	WebElement clickonUsermanagment;
+	@FindBy(xpath="//span[contains(text(),'Roles')]")
+	WebElement ClickonRoles;
+	public AddRoomSettingpage ClickonRoles() 
+	{   
+		ClickonRoles.click();
+		return new AddRoomSettingpage();
+	}
+	
+	public AddRoomSettingpage clickonUsermanagment() 
+	{   
+		clickonUsermanagment.click();
+		return new AddRoomSettingpage();
+	}
 	
 	public AddRoomSettingpage clickoncategryicon() 
 	{   

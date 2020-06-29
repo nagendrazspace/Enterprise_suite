@@ -14,6 +14,9 @@ public class SettingPage extends TestBase{
 	@FindBy(xpath="//a[@id='nav-icon']")
 	WebElement clickonsidebarlink;
 	
+	@FindBy(xpath="//body[@id='ctl00_home']/form[@id='aspnetForm']/div[@id='content']/div[@id='SlideMenu']/div[@class='container']/ul[@id='gn-menu']/nav[@id='MenuWrapper']/div[@class='gn-scroller']/ul[@id='panelbar']/li[8]/a[1]/span[1]")
+	WebElement clickoncostingprofilelink;
+	
 	
 	@FindBy(xpath="//span[contains(text(),'Master Prefix')]")
 	WebElement clickonMasterPrefixlink;
@@ -29,6 +32,11 @@ public class SettingPage extends TestBase{
 	public ArticleAddSettingPage verifyaddarticlelink()
 	{
 		clickonaddarticlelink.click();
+		return new ArticleAddSettingPage();
+	}
+	public ArticleAddSettingPage clickoncostingprofilelink()
+	{
+		clickoncostingprofilelink.click();
 		return new ArticleAddSettingPage();
 	}
 	public SettingPage  verifysidebarlink()

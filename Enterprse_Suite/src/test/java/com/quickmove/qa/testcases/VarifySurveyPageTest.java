@@ -40,8 +40,8 @@ public class VarifySurveyPageTest extends TestBase{
 	public void varifysurvey() 
 	{
 		homepage.clickonhomepgesidemenu();
-		homepage.ClickOnsurveylink();
-		enquirymaster.copyenqid(); 
+	//	homepage.ClickOnsurveylink();
+	//	enquirymaster.copyenqid(); 
 		//surveypage.surveysearchicon(Enqidcopy);
 	}
 	

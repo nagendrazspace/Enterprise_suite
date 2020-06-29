@@ -69,10 +69,10 @@ public class varifyEnquirywithoutsurveyTest extends TestBase{
 	WebElement Surveybutton=driver.findElement(By.xpath("//input[@id='ctl00_ContentPlaceHolder1_CblRequirement_0']"));
 	js1.executeScript("arguments[0].scrollIntoView();", Surveybutton);
 	
-	enquirymaster.Editenquiryadress();
+//	enquirymaster.Editenquiryadress();
 	Thread.sleep(2000);
 	
-	enquirymaster.checkedsurveyenable();
+//	enquirymaster.checkedsurveyenable();
 	Thread.sleep(3000);
 	
 	JavascriptExecutor js = (JavascriptExecutor) driver;

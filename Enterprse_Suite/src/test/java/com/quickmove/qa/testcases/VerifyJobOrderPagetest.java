@@ -40,7 +40,7 @@ public class VerifyJobOrderPagetest  extends TestBase{
 			 
 			  costingpage=new CostingPage();
 			  homepage.clickonhomepgesidemenu();
-			  homepage.ClickOnQuote();
+	//		  homepage.ClickOnQuote();
 			 
 			  quotepage=new QuotePage();
 			 joborder  =new JobOrder();

@@ -17,7 +17,7 @@ public class TestUtil {
 	
 	
 	
-	public static String TESTDATA_SHEET_PATH = "C:\\Users\\Admin\\eclipse-workspace\\Enterprse_Suite\\src\\main\\java\\com\\quickmove\\TestData\\TestData.xlsx";
+	public static String TESTDATA_SHEET_PATH = "C:\\Users\\MYPC\\git\\Enterprise_suite\\Enterprse_Suite\\src\\main\\java\\com\\quickmove\\TestData\\TestData.xlsx";
 
 	static Workbook book;
 	static Sheet sheet;

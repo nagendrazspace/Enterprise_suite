@@ -3,21 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.quickmove.qa.testcases.Addroomsettingtest">
+      <class name="com.quickmove.qa.testcases.AccountConfigurationPageTest">
         <methods>
-          <include name="varifyaddITGoodsRoom"/>
-          <include name="varifyaddIndustrialGoodsRoom"/>
-          <include name="varifyaddFIneArtsRoom"/>
-          <include name="varifyaddPersonalEffctsRoom"/>
-          <include name="varifyaddroom" invocation-numbers="1 2 3 4 5 6 7 8"/>
-          <include name="varifyaddDataCentreRoom"/>
+          <include name="VerifyAccountconfigurationLIability"/>
           <include name="setup"/>
+          <include name="VerifyAccountconfigurationExpense"/>
           <include name="teardown"/>
-          <include name="varifyaddCommerciaGoodsroom"/>
-          <include name="varifyaddOffficeRoom"/>
-          <include name="varifyaddPershiableGoodsRoom"/>
+          <include name="VerifyAccountconfigurationAsset"/>
+          <include name="VerifyAccountconfigurationIncome"/>
         </methods>
-      </class> <!-- com.quickmove.qa.testcases.Addroomsettingtest -->
+      </class> <!-- com.quickmove.qa.testcases.AccountConfigurationPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

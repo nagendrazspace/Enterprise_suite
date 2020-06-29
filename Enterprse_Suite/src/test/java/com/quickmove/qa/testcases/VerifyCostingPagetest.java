@@ -36,7 +36,7 @@ public class VerifyCostingPagetest  extends TestBase{
 	 public void costcreation() throws InterruptedException {
 		 
 		 driver.findElement(By.xpath("//a[@id='ctl00_ContentPlaceHolder1_ViewEnquiry_gvEnquiry_ctl02_imbEnquirySummary']")).click();
-		 enquirymaster.clickoncostingicon();
+	//	 enquirymaster.clickoncostingicon();
 		 costingpage.ClickOnAutocosticon();
 		 costingpage.ClickOnAutocosticonsubmit();
 		 Thread.sleep(3000);
