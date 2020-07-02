@@ -39,7 +39,12 @@ public class AddRoleTest extends TestBase {
 		driver.findElement(By.xpath("//span[contains(text(),'Common')]")).click();
 		Thread.sleep(3000);
 		addroomsettingpage=new AddRoomSettingpage();
-		addroomsettingpage.clickonUsermanagment();
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		WebElement roles=driver.findElement(By.xpath("//span[contains(text(),'Roles')]"));
+		js.executeScript("arguments[0].scrollIntoView();", roles);
+		
+	//	addroomsettingpage.clickonUsermanagment();
 		addroomsettingpage.ClickonRoles();
 		 addrolespage=new AddRolesPage();
 		

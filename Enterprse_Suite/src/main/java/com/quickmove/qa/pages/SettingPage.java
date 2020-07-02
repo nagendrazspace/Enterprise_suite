@@ -17,13 +17,26 @@ public class SettingPage extends TestBase{
 	@FindBy(xpath="//body[@id='ctl00_home']/form[@id='aspnetForm']/div[@id='content']/div[@id='SlideMenu']/div[@class='container']/ul[@id='gn-menu']/nav[@id='MenuWrapper']/div[@class='gn-scroller']/ul[@id='panelbar']/li[8]/a[1]/span[1]")
 	WebElement clickoncostingprofilelink;
 	
-	
+	@FindBy(xpath="//span[@class='k-link'][contains(text(),'Products')]")
+	WebElement clickonProducttypelink;
 	@FindBy(xpath="//span[contains(text(),'Master Prefix')]")
 	WebElement clickonMasterPrefixlink;
 	
 	@FindBy(xpath="//div[@id='ctl00_ContentPlaceHolder1_divCategoryClose']")
 	WebElement clickoncategordetailsicon;
+	@FindBy(xpath="//span[contains(text(),'Branch')]")
+	WebElement clickonbrnachlink;
 	
+	public ArticleAddSettingPage clickonProducttypelink()
+	{
+		clickonProducttypelink.click();
+		return new ArticleAddSettingPage();
+	}
+	public ArticleAddSettingPage clickonbrnachlink()
+	{
+		clickonbrnachlink.click();
+		return new ArticleAddSettingPage();
+	}
 	public SettingPage()
 	{
 		PageFactory.initElements(driver, this);// for initialization page factory method

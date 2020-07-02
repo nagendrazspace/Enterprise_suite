@@ -3,16 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.quickmove.qa.testcases.AccountConfigurationPageTest">
+      <class name="com.quickmove.qa.testcases.AddRoleTest">
         <methods>
-          <include name="VerifyAccountconfigurationLIability"/>
           <include name="setup"/>
-          <include name="VerifyAccountconfigurationExpense"/>
-          <include name="teardown"/>
-          <include name="VerifyAccountconfigurationAsset"/>
-          <include name="VerifyAccountconfigurationIncome"/>
+          <include name="AddrolesTest"/>
         </methods>
-      </class> <!-- com.quickmove.qa.testcases.AccountConfigurationPageTest -->
+      </class> <!-- com.quickmove.qa.testcases.AddRoleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -45,7 +45,22 @@ public class HRPage extends TestBase{
 	WebElement Clickonsavebutton;
 	@FindBy(xpath="//a[@id='ctl00_ContentPlaceHolder1_ViewHREmployee1_gvEmployee_ctl02_imgbtnCreateUser']")
 	WebElement createuser;
+	@FindBy(xpath="//select[@id='ctl00_ContentPlaceHolder1_EmployeeInformation2_ddlSubsidiaryOrGlobal']")
+	WebElement selectsubsidary;
 	
+	@FindBy(xpath="//select[@id='ctl00_ContentPlaceHolder1_EmployeeInformation2_ddlBranchName']")
+	WebElement selectbranch;
+	
+	public AddRoomSettingpage selectbranch() 
+	{   Select select= new Select(driver.findElement(By.xpath("//select[@id='ctl00_ContentPlaceHolder1_EmployeeInformation2_ddlBranchName']")));
+		select.selectByIndex(1);
+		return new AddRoomSettingpage();
+	}
+	public AddRoomSettingpage selectsubsidary() 
+	{   Select select= new Select(driver.findElement(By.xpath("//select[@id='ctl00_ContentPlaceHolder1_EmployeeInformation2_ddlSubsidiaryOrGlobal']")));
+		select.selectByIndex(1);
+		return new AddRoomSettingpage();
+	}
 	//a[@id='ctl00_ContentPlaceHolder1_ViewHREmployee1_gvEmployee_ctl02_imgbtnCreateUser']
 	public HRPage()
 	{

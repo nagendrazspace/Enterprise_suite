@@ -25,7 +25,7 @@ public class HRPageTest extends TestBase {
 	SettingPage settingpage;
 	HRPage hrpage;
 	AddRoomSettingpage addroomsetting;
-	String sheetname="Employee";
+	String sheetname="AddEmployeeDetails";
 	public HRPageTest()
 	{
 		super();// it will call super class constructor
@@ -60,14 +60,17 @@ public class HRPageTest extends TestBase {
 	          JavascriptExecutor js = (JavascriptExecutor) driver;
 	      	WebElement statusbutton=driver.findElement(By.xpath("//a[@id='ctl00_ContentPlaceHolder1_EmployeeInformation2_btnSave']"));
 	      	js.executeScript("arguments[0].scrollIntoView();", statusbutton);
+	      	hrpage.selectsubsidary();
+	      	Thread.sleep(3000);
+	      	hrpage.selectbranch();
 	          hrpage.SelectDepartment();
 	          hrpage.SelectDesignation();
 	         hrpage.Clickonsavebutton();
 	         homepage.ClickOnHR();
 	         Thread.sleep(3000);
-				/*
-				 * hrpage.createuser(); Thread.sleep(3000);
-				 */
+				
+				 hrpage.createuser(); Thread.sleep(3000);
+				
 	       
 	  }
 	  @AfterMethod
