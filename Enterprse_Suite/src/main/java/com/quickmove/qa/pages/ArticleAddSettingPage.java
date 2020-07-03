@@ -41,6 +41,36 @@ public class ArticleAddSettingPage extends TestBase{
 		return new ArticleAddSettingPage();
 	}
 	
+	public void clickonsubsidiary()
+	{
+	
+		
+		WebElement  attr = driver.findElement(By.xpath("//input[@id='ctl00_ContentPlaceHolder1_chkSubsidary_0']"));
+	  if(attr.isSelected())
+		
+		
+	    	//System.out.print("dontclick");
+	  attr.click();
+	    else
+	        
+	    	attr.click();
+		
+		
+		
+		
+		
+		
+		
+	//	clickonsubsidiary.click();
+		
+	}
+	public ArticleAddSettingPage clickonsavebutton()
+	{
+		clickonsavebutton.click();		
+		return new ArticleAddSettingPage();
+	}
+	
+	
 	public ArticleAddSettingPage ClickonAddarticleicon()
 	{
 		clickonaddarticleicon.click();
@@ -60,8 +90,8 @@ public class ArticleAddSettingPage extends TestBase{
 	{
 		Enterarticlename.sendKeys(articlename);
 		Entervolume.sendKeys(articlevolume);
-		clickonsubsidiary.click();
-		clickonsavebutton.click();
+		
+		
 		
 	}
 }

@@ -118,7 +118,7 @@ public class AddRoomSettingpage extends TestBase{
 		
 		List<WebElement> element=(List<WebElement>) driver.findElement(By.id("ctl00_ContentPlaceHolder1_lstItem"));*/
 	//int count=	element.size();
-		for(int attempts=0;attempts<=100;attempts++)	
+		for(int attempts=0;attempts<=200;attempts++)	
 		{
 			
 			clickonfirstelement();

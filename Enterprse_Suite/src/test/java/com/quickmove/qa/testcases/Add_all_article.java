@@ -15,7 +15,7 @@ import com.quickmove.qa.pages.LoginPage;
 import com.quickmove.qa.pages.SettingPage;
 import com.quickmove.qa.util.TestUtil;
 
-public class Articlesettingpagetest extends TestBase {
+public class Add_all_article extends TestBase {
 	
 	HomePage homepage;
 	LoginPage loginpage;
@@ -23,12 +23,12 @@ public class Articlesettingpagetest extends TestBase {
 	ArticleAddSettingPage articlesettingpage;
 	String sheetname="Addarticle";
 	
-	public Articlesettingpagetest()
+	public Add_all_article()
 	{
 		super();
 	}
-	@BeforeMethod
-	public void setup()
+	@Test(priority=0)
+	public void setup() throws InterruptedException
 	{
 		initialization();
 		 loginpage=new LoginPage();
@@ -39,6 +39,8 @@ public class Articlesettingpagetest extends TestBase {
 		 settingpage.verifysidebarlink(); 
 		settingpage.verifyaddarticlelink();
 		articlesettingpage=new ArticleAddSettingPage();
+		articlesettingpage.ClickonExpandicon();
+		
 		
 		
 	}
@@ -53,10 +55,14 @@ public class Articlesettingpagetest extends TestBase {
 	@Test(priority=1,dataProvider="gettestdataarticle")
 	public void validateaddarticle(String article ,String volume) throws InterruptedException
 	{
-		articlesettingpage.ClickonExpandicon();
 		articlesettingpage.ClickonAddarticleicon();
 		Thread.sleep(1000);
 		articlesettingpage.Enterarticlenameandvolume(article, volume);
+		Thread.sleep(1000);
+		articlesettingpage.clickonsubsidiary();
+		articlesettingpage.clickonsavebutton();
+		Thread.sleep(1000);
+	//	articlesettingpage.clickonsubsidiary();
 	}
 //	@AfterMethod
 	public void teardown()
