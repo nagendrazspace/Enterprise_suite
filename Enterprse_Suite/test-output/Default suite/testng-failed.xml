@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.quickmove.qa.testcases.Add_all_article">
+      <class name="com.quickmove.qa.testcases.AddRoleTest">
         <methods>
-          <include name="validateaddarticle" invocation-numbers="1 3 5 10 17 38 41 42 43"/>
+          <include name="setup"/>
+          <include name="AddrolesTest"/>
         </methods>
-      </class> <!-- com.quickmove.qa.testcases.Add_all_article -->
+      </class> <!-- com.quickmove.qa.testcases.AddRoleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
