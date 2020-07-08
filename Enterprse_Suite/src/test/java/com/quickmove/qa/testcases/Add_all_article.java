@@ -63,6 +63,7 @@ public class Add_all_article extends TestBase {
 		articlesettingpage.clickonsavebutton();
 		Thread.sleep(1000);
 	//	articlesettingpage.clickonsubsidiary();
+	
 	}
 //	@AfterMethod
 	public void teardown()

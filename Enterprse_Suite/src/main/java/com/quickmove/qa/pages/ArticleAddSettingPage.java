@@ -49,8 +49,8 @@ public class ArticleAddSettingPage extends TestBase{
 	  if(attr.isSelected())
 		
 		
-	    	//System.out.print("dontclick");
-	  attr.click();
+	    	System.out.print("dontclick");
+//	  attr.click();
 	    else
 	        
 	    	attr.click();
