@@ -61,7 +61,7 @@ public class Addroomsettingtest extends TestBase {
 		addroomsetting.clickonaddRoombutton();
 		Thread.sleep(1000);
 		
-		addroomsetting.clickongoodstype();
+		addroomsetting.clickongoodstype();		
 		addroomsetting.EnterRoomname(addroom);
 		addroomsetting.selectelement();
 		addroomsetting.clickonsavebutton();
