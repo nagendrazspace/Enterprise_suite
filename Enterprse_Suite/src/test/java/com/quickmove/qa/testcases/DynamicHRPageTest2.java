@@ -1,6 +1,8 @@
 package com.quickmove.qa.testcases;
 
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
@@ -39,17 +41,22 @@ public class DynamicHRPageTest2 extends TestBase {
 		 hrpage=new HRPage();
 		 homepage.ClickOnHR();
 	//Mehod --1	 
+		
+		 String[] Empl= {"vijith","nagendra"};
 		 String before_xpath="/html[1]/body[1]/form[1]/div[7]/div[2]/div[2]/div[2]/div[1]/div[3]/table[1]/tbody[1]/tr[";
 		 String After_xpath="]/td[2]";
 		 for(int i=1; i<=20;i++){
 			String name= driver.findElement(By.xpath(before_xpath+i+After_xpath)).getText();
 			System.out.println(name);
-	/*		if(name.contains("sushh"))
-			{// i++;
-				driver.findElement(By.xpath("//a[@id='ctl00_ContentPlaceHolder1_ViewHREmployee1_gvEmployee_ctl0"+(i+1)+"_imgbtnEdit']")).click();
-						//a[@id='ctl00_ContentPlaceHolder1_ViewHREmployee1_gvEmployee_ctl02_imgbtnEdit']
+			
+			List al=Arrays.asList(Empl);
+	//		if(name.contains("nagendra"))
+	if(al.contains(name))
+	{
+		driver.findElement(By.xpath("//a[@id='ctl00_ContentPlaceHolder1_ViewHREmployee1_gvEmployee_ctl0"+(i+1)+"_imgbtnEdit']")).click();
+						
 }	
-*/
+
 		 }
 }
 

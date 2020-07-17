@@ -49,7 +49,7 @@ public class ArticleAddSettingPage extends TestBase{
 	  if(attr.isSelected())
 		
 		
-	    	System.out.print("dontclick");
+	    	System.out.print("dont click");
 //	  attr.click();
 	    else
 	        
@@ -60,14 +60,22 @@ public class ArticleAddSettingPage extends TestBase{
 		
 		
 		
-		
+	 
 	//	clickonsubsidiary.click();
 		
 	}
 	public ArticleAddSettingPage clickonsavebutton()
 	{
 		clickonsavebutton.click();		
+		
+	if(driver.findElement(By.xpath("//*[contains(text(),'Exists')]")).isDisplayed())
+	{
+		driver.findElement(By.xpath("//a[@id='ctl00_ContentPlaceHolder1_imgbtnArticleCancel']")).click();
+	}
+	else 
+		driver.findElement(By.xpath("//a[@id='ctl00_ContentPlaceHolder1_imgbtnAddArticles']")).click();
 		return new ArticleAddSettingPage();
+		
 	}
 	
 	

@@ -59,7 +59,7 @@ public class Costingpagetest extends TestBase {
   
   @Test(priority=1, dataProvider="AddCostingprofile")
   
-	  public void AddCostingprofile(String code,String Activityname,String Subctivityname,String accounttypeincome,String accounttypeexpense,String provisionalcost,String minimumamount) throws InterruptedException {
+	  public void AddCostingprofile(String code,String Activityname,String Subctivityname,String productype,String Transport,String Shipmenttype,String unitype,String IsMultiple,String unit,String provisionalcost,String minimumamount,String Selectautocost,String Selectcheckbox,String currency) throws InterruptedException {
 	         
 	          costingprofile.ClickonAddcostingBtton();
 	          costingprofile.EnterCode(code);
@@ -69,13 +69,26 @@ public class Costingpagetest extends TestBase {
 	          costingprofile.ClickonAddsubactivitybutton();
 	          Thread.sleep(3000);
 	          costingprofile.EnterSubactivityName(Subctivityname);
-	          costingprofile.Selectaccounttypeincome(accounttypeincome);
-	          costingprofile.Selectaccounttypeexpense(accounttypeexpense);
-	          
+	       //   costingprofile.Selectaccounttypeincome(accounttypeincome);
+	       //   costingprofile.Selectaccounttypeexpense(accounttypeexpense);
+	          costingprofile.SelectProductype(productype);
+	          Thread.sleep(4000);
+	          costingprofile.SelectTransportMode(Transport);
+	          Thread.sleep(3000);
+	          costingprofile.SelectShipmentype(Shipmenttype);
+	          Thread.sleep(3000);
+	          costingprofile.SelectUnittype(unitype);
+	          Thread.sleep(3000);
+	          costingprofile.Ismultiple(IsMultiple);
+	          costingprofile.SelectUnit(unit);
+	          Thread.sleep(5000);
 	          costingprofile.EnterProvisionalcost(provisionalcost);
-	          Thread.sleep(3000);
+	          Thread.sleep(4000);
+	          costingprofile.SelectAutoCost(Selectautocost);
 	          costingprofile.EnterMiniumamount(minimumamount);
+	          costingprofile.SelectEditProvisionalcost(Selectcheckbox);
 	          Thread.sleep(3000);
+	          costingprofile.SelectCurrency(currency);
 	          costingprofile.SelectSubsidiary();
 	          costingprofile.Clickonsavesubactivtybutton();
 	          

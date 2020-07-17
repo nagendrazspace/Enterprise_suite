@@ -11,20 +11,28 @@ import com.quickmove.qa.base.TestBase;
 
 public class CostingProfilePage extends TestBase {
 	//a[@id='ctl00_ContentPlaceHolder1_rpCostingActivities_ctl01_ibtnAddSubActivity']
-	
+
 	@FindBy(xpath="//a[@id='ctl00_ContentPlaceHolder1_ibtnAddCostingActivtities']")
 	WebElement ClickonAddcostingBtton;
-	
-	
+
+
 	@FindBy(xpath="//input[@id='ctl00_ContentPlaceHolder1_txtActivityCode']")
 	WebElement EnterCode;
 	@FindBy(xpath="//input[@id='ctl00_ContentPlaceHolder1_txtActivityName']")
 	WebElement EnterActivityName;
-	
+
 	@FindBy(xpath="//a[@id='ctl00_ContentPlaceHolder1_ibtnSaveActivity']")
 	WebElement ClickonActivitysavebutton;
-	
-	
+	@FindBy(xpath="//input[@id='ctl00_ContentPlaceHolder1_chbxIsVariable']")
+	WebElement Ismultiple;
+
+	public CostingProfilePage Ismultiple(String IsMultiple)
+	{
+		Ismultiple.sendKeys(IsMultiple);	
+		return new CostingProfilePage();
+	}
+
+
 	@FindBy(xpath="//a[@id='ctl00_ContentPlaceHolder1_rpCostingActivities_ctl01_ibtnAddSubActivity']")
 	WebElement ClickonAddsubactivitybutton;
 	public CostingProfilePage ClickonAddsubactivitybutton()
@@ -32,7 +40,7 @@ public class CostingProfilePage extends TestBase {
 		ClickonAddsubactivitybutton.click();
 		return new CostingProfilePage();
 	}
-	
+
 	@FindBy(xpath="//input[@id='ctl00_ContentPlaceHolder1_txtSubActivityName']")
 	WebElement EnterSubactivityName;
 	public CostingProfilePage EnterSubactivityName(String entersubactivty)
@@ -45,12 +53,12 @@ public class CostingProfilePage extends TestBase {
 	public CostingProfilePage Selectaccounttypeincome(String accountypename)
 	{
 		Selectaccounttypeincome.sendKeys(accountypename);
-	Selectaccounttypeincome.sendKeys(Keys.ARROW_DOWN);
-	Selectaccounttypeincome.sendKeys(Keys.ENTER);
+		Selectaccounttypeincome.sendKeys(Keys.ARROW_DOWN);
+		Selectaccounttypeincome.sendKeys(Keys.ENTER);
 		//Select select=new Select(driver.findElement(By.xpath("//input[@id='ctl00_ContentPlaceHolder1_txtSubGeneralLedger']")));
 		return new CostingProfilePage();
 	}
-	
+
 	@FindBy(xpath="//input[@id='ctl00_ContentPlaceHolder1_txtExpenseGlSubGlLedger']")
 	WebElement Selectaccounttypeexpense;
 	public CostingProfilePage Selectaccounttypeexpense(String accounttypenameexepnse)
@@ -63,80 +71,118 @@ public class CostingProfilePage extends TestBase {
 	}
 	@FindBy(xpath="//select[@id='ctl00_ContentPlaceHolder1_ddlProductType']")
 	WebElement SelectProductype;
-	
-	public CostingProfilePage SelectProductype()
+
+	public CostingProfilePage SelectProductype(String productype)
 	{
 		SelectProductype.click();
-	Select select=new Select(driver.findElement(By.xpath("//select[@id='ctl00_ContentPlaceHolder1_ddlProductType']")));
-	select.selectByIndex(1);	
-	
-	return new CostingProfilePage();
+
+		SelectProductype.sendKeys(productype);
+
+		//Select select=new Select(driver.findElement(By.xpath("//select[@id='ctl00_ContentPlaceHolder1_ddlProductType']")));
+		//	select.selectByIndex(1);	
+
+		return new CostingProfilePage();
 	}
-	
+	@FindBy(xpath="//select[@id='ctl00_ContentPlaceHolder1_ddlUnit']")
+	WebElement SelectUnit;
+
+	public CostingProfilePage SelectUnit(String unit)
+	{
+		SelectUnit.click();
+		SelectUnit.sendKeys(unit);
+		return new CostingProfilePage();
+	}
+	@FindBy(xpath="//select[@id='ctl00_ContentPlaceHolder1_ddlBaseCurrency']")
+	WebElement SelectCurrency;
+	public CostingProfilePage SelectCurrency(String currency)
+	{
+		SelectCurrency.click();
+		SelectCurrency.sendKeys(currency);
+		//	Select select=new Select(driver.findElement(By.xpath("//select[@id='ctl00_ContentPlaceHolder1_ddlUnitType']")));
+		//	select.selectByIndex(1);	
+
+		return new CostingProfilePage();
+	}
+
 	@FindBy(xpath="//select[@id='ctl00_ContentPlaceHolder1_ddlUnitType']")
 	WebElement SelectUnittype;
-	public CostingProfilePage SelectUnittype()
+	public CostingProfilePage SelectUnittype(String unitype)
 	{
 		SelectUnittype.click();
-	Select select=new Select(driver.findElement(By.xpath("//select[@id='ctl00_ContentPlaceHolder1_ddlUnitType']")));
-	select.selectByIndex(1);	
-	
-	return new CostingProfilePage();
+		SelectUnittype.sendKeys(unitype);
+		SelectUnittype.sendKeys(Keys.ENTER);
+
+		//	Select select=new Select(driver.findElement(By.xpath("//select[@id='ctl00_ContentPlaceHolder1_ddlUnitType']")));
+		//	select.selectByIndex(1);	
+
+		return new CostingProfilePage();
 	}
-	
+
 	@FindBy(xpath="//select[@id='ctl00_ContentPlaceHolder1_ddlTransportMode']")
 	WebElement SelectTransportMode;
-	public CostingProfilePage SelectTransportMode()
+	public CostingProfilePage SelectTransportMode(String Transporte)
 	{
-		SelectTransportMode.click();
-	Select select=new Select(driver.findElement(By.xpath("//select[@id='ctl00_ContentPlaceHolder1_ddlTransportMode']")));
-	select.selectByIndex(1);	
-	
-	return new CostingProfilePage();
+		//	SelectTransportMode.click();
+
+		SelectTransportMode.sendKeys(Transporte);
+
+
+		//	Select select=new Select(driver.findElement(By.xpath("//select[@id='ctl00_ContentPlaceHolder1_ddlTransportMode']")));
+		//	select.selectByIndex(1);	
+
+		return new CostingProfilePage();
 	}
-	
+
 	@FindBy(xpath="//select[@id='ctl00_ContentPlaceHolder1_ddlShippingType']")
 	WebElement SelectShipmentype;
-	public CostingProfilePage SelectShipmentype()
+	public CostingProfilePage SelectShipmentype(String Shipmenttype)
 	{
 		SelectShipmentype.click();
-	Select select=new Select(driver.findElement(By.xpath("//select[@id='ctl00_ContentPlaceHolder1_ddlShippingType']")));
-	select.selectByIndex(1);	
-	
-	return new CostingProfilePage();
+		SelectShipmentype.sendKeys(Shipmenttype);
+
+		//	Select select=new Select(driver.findElement(By.xpath("//select[@id='ctl00_ContentPlaceHolder1_ddlShippingType']")));
+		//	select.selectByIndex(1);	
+
+		return new CostingProfilePage();
 	}
 	@FindBy(xpath="//input[@id='ctl00_ContentPlaceHolder1_txtPrice']")
 	WebElement EnterProvisionalcost;
-	public CostingProfilePage EnterProvisionalcost(String enterProvisionalcost)
-	{
-		EnterProvisionalcost.sendKeys(enterProvisionalcost);
-		return new CostingProfilePage();
+	public CostingProfilePage EnterProvisionalcost(String enterProvisionalcost) throws InterruptedException
+	{EnterProvisionalcost.click();
+	Thread.sleep(2000);
+	EnterProvisionalcost.sendKeys(""+enterProvisionalcost);
+	//String.valueOf(enterProvisionalcost)
+	return new CostingProfilePage();
 	}
 	@FindBy(xpath="//input[@id='ctl00_ContentPlaceHolder1_cbIsProvisionalCost']")
 	WebElement SelectEditProvisionalcost;
-	
-	public CostingProfilePage SelectEditProvisionalcost()
+
+	public CostingProfilePage SelectEditProvisionalcost(String Selectcheckbox)
 	{
+		SelectEditProvisionalcost.sendKeys(Selectcheckbox);
 		SelectEditProvisionalcost.click();
 		return new CostingProfilePage();
 	}
-	
+
 	@FindBy(xpath="//input[@id='ctl00_ContentPlaceHolder1_txtMinAmount']")
 	WebElement EnterMiniumamount;
-	public CostingProfilePage EnterMiniumamount(String enterMinimumcost)
+	public CostingProfilePage EnterMiniumamount(String enterMinimumcost) throws InterruptedException
 	{
-		EnterMiniumamount.sendKeys(enterMinimumcost);
+		EnterMiniumamount.click();
+		Thread.sleep(2000);
+		EnterMiniumamount.sendKeys(""+enterMinimumcost);
 		return new CostingProfilePage();
 	}
-	
+
 	@FindBy(xpath="//input[@id='ctl00_ContentPlaceHolder1_cbxIsAutoCosting']")
 	WebElement SelectAutoCost;
-	public CostingProfilePage SelectAutoCost()
+	public CostingProfilePage SelectAutoCost(String Selectautocost)
 	{
+		SelectAutoCost.sendKeys(Selectautocost);
 		SelectAutoCost.click();
 		return new CostingProfilePage();
 	}
-	
+
 	@FindBy(xpath="//input[@id='ctl00_ContentPlaceHolder1_chkSubsidary_0']")
 	WebElement SelectSubsidiary;
 	public CostingProfilePage SelectSubsidiary()
@@ -146,7 +192,7 @@ public class CostingProfilePage extends TestBase {
 	}
 	@FindBy(xpath="//a[@id='ctl00_ContentPlaceHolder1_ibtnSaveSubActivity']")
 	WebElement Clickonsavesubactivtybutton;
-	
+
 	public CostingProfilePage Clickonsavesubactivtybutton()
 	{
 		Clickonsavesubactivtybutton.click();
@@ -155,7 +201,7 @@ public class CostingProfilePage extends TestBase {
 	public CostingProfilePage()
 	{
 		PageFactory.initElements(driver, this);// for initialization page factory method
-		
+
 	}
 	public CostingProfilePage ClickonAddcostingBtton()
 	{
