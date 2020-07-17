@@ -19,14 +19,25 @@ public class SettingPage extends TestBase{
 	
 	@FindBy(xpath="//span[@class='k-link'][contains(text(),'Products')]")
 	WebElement clickonProducttypelink;
+	
 	@FindBy(xpath="//span[contains(text(),'Master Prefix')]")
 	WebElement clickonMasterPrefixlink;
 	
 	@FindBy(xpath="//div[@id='ctl00_ContentPlaceHolder1_divCategoryClose']")
 	WebElement clickoncategordetailsicon;
+	
 	@FindBy(xpath="//span[contains(text(),'Branch')]")
 	WebElement clickonbrnachlink;
 	
+	@FindBy(xpath="//span[contains(text(),'Resource Types')]")
+	WebElement ClickonResourcetype;
+	
+	
+	public ArticleAddSettingPage ClickonResourcetype()
+	{
+		ClickonResourcetype.click();
+		return new ArticleAddSettingPage();
+	}
 	public ArticleAddSettingPage clickonProducttypelink()
 	{
 		clickonProducttypelink.click();
