@@ -13,6 +13,12 @@ import com.quickmove.qa.base.TestBase;
 
 public class AddRoomSettingpage extends TestBase{
 	
+	public AddRoomSettingpage()
+	{
+		PageFactory.initElements(driver, this);// for initialization page factory method
+		
+	}
+	
 	@FindBy(xpath="//div[@id='ctl00_ContentPlaceHolder1_divCategoryClose']")
 	WebElement clickoncategordetailsicon;
 	
@@ -118,7 +124,7 @@ public class AddRoomSettingpage extends TestBase{
 		
 		List<WebElement> element=(List<WebElement>) driver.findElement(By.id("ctl00_ContentPlaceHolder1_lstItem"));*/
 	//int count=	element.size();
-		for(int attempts=0;attempts<=200;attempts++)	
+		for(int attempts=0;attempts<=10;attempts++)	
 		{
 			
 			clickonfirstelement();
@@ -254,10 +260,6 @@ public class AddRoomSettingpage extends TestBase{
 		firstelement.click();
 		return new AddRoomSettingpage();
 	}
-	public AddRoomSettingpage()
-	{
-		PageFactory.initElements(driver, this);// for initialization page factory method
-		
-	}
+	
 	
 }

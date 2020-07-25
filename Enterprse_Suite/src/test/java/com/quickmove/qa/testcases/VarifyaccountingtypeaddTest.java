@@ -30,9 +30,9 @@ public class VarifyaccountingtypeaddTest extends TestBase {
 	AccountConfigurationPage accountingconfigurationpage;
 	AccountingConfigsubgroup accountingconfigsubgrouppage;
 	accountingtypeadd AccTypeAdd;
-	String sheetname="Sheet2";
-	String sheetname2="Panamsalesincome";
-	String sheetname3="panamaoperaaionalexpense";
+//	String sheetname="Sheet2";
+	String sheetname2="Incomeadd";
+	String sheetname3="Expenseadd";
 	
 	public VarifyaccountingtypeaddTest()
 	{

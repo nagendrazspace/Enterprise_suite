@@ -28,7 +28,8 @@ public class CostingProfilePage extends TestBase {
 
 	public CostingProfilePage Ismultiple(String IsMultiple)
 	{
-		Ismultiple.sendKeys(IsMultiple);	
+		Ismultiple.sendKeys(IsMultiple);
+		Ismultiple.click();
 		return new CostingProfilePage();
 	}
 

@@ -32,7 +32,7 @@ public class Costingpagetest extends TestBase {
 	{
 		super();// it will call super class constructor
 	}
-	@BeforeMethod
+	@Test(priority=0)
 	public void setup() throws InterruptedException
 	{
 		initialization();
@@ -79,19 +79,24 @@ public class Costingpagetest extends TestBase {
 	          Thread.sleep(3000);
 	          costingprofile.SelectUnittype(unitype);
 	          Thread.sleep(3000);
-	          costingprofile.Ismultiple(IsMultiple);
+	      costingprofile.Ismultiple(IsMultiple);
 	          costingprofile.SelectUnit(unit);
 	          Thread.sleep(5000);
 	          costingprofile.EnterProvisionalcost(provisionalcost);
 	          Thread.sleep(4000);
 	          costingprofile.SelectAutoCost(Selectautocost);
-	          costingprofile.EnterMiniumamount(minimumamount);
+	    //    costingprofile.EnterMiniumamount(minimumamount);
 	          costingprofile.SelectEditProvisionalcost(Selectcheckbox);
 	          Thread.sleep(3000);
 	          costingprofile.SelectCurrency(currency);
 	          costingprofile.SelectSubsidiary();
-	          costingprofile.Clickonsavesubactivtybutton();
-	          
+	          Thread.sleep(3000);
+	          JavascriptExecutor js = (JavascriptExecutor) driver;
+	      	WebElement statusbutton=driver.findElement(By.xpath("//a[@id='ctl00_ContentPlaceHolder1_ibtnSaveSubActivity']"));
+	      	js.executeScript("arguments[0].scrollIntoView();", statusbutton);
+	        costingprofile.Clickonsavesubactivtybutton();
+	        
+	        Thread.sleep(3000);
 	  }
 	  @AfterMethod
 	  public void teardown()

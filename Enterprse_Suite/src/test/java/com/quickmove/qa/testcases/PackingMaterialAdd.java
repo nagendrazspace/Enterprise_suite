@@ -55,7 +55,7 @@ public class PackingMaterialAdd extends TestBase {
 	}
 	
 	@Test(priority=1,dataProvider="gettestMaterial")
-	public void validateaddarticle(String Material ,String QTY,String Size,String unit,String cost) throws InterruptedException
+	public void PackingMaterial(String Material ,String QTY,String Size,String unit,String cost) throws InterruptedException
 	{ 
 		
 		
