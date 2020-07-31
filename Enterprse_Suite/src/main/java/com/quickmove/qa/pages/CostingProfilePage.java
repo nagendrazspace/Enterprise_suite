@@ -224,4 +224,20 @@ public class CostingProfilePage extends TestBase {
 		EnterActivityName.sendKeys(enteractivtyname);
 		return new CostingProfilePage();
 	}
+	public void sendactivity(String act) {
+		  String before_xpath1="/html[1]/body[1]/form[1]/div[7]/div[2]/div[1]/div[4]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[2]/div[1]/div[1]/table[1]/tbody[1]/tr[";
+		 String After_xpath1="]/td[3]";
+	for(int j=2;j<=20;j++){
+		 if(j%2!=0) {
+		
+		String subactivitymatch=driver.findElement(By.xpath(before_xpath1+(j)+After_xpath1)).getText();
+	
+	if(subactivitymatch.contains(act))
+	{
+		driver.findElement(By.xpath("/html[1]/body[1]/form[1]/div[7]/div[2]/div[1]/div[4]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[2]/div[1]/div[1]/table[1]/tbody[1]/tr["+(j)+"]/td[13]")).click();
+	}
+		 }
+	
+}
+	}
 }

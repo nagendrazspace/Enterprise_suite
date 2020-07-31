@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.quickmove.qa.testcases.VarifyaccountingtypeaddTest">
+      <class name="com.quickmove.qa.testcases.addcity">
         <methods>
-          <include name="Teardown"/>
-          <include name="VerifyAccountconfigurationExpense"/>
           <include name="setup"/>
+          <include name="validateaddarticle"/>
         </methods>
-      </class> <!-- com.quickmove.qa.testcases.VarifyaccountingtypeaddTest -->
+      </class> <!-- com.quickmove.qa.testcases.addcity -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
