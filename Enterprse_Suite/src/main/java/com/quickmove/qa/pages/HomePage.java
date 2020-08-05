@@ -11,6 +11,25 @@ public class HomePage extends TestBase{
 	@FindBy(xpath="//a[@id='3']")
 	WebElement ClickOnSalesModule;
 	
+	@FindBy(xpath="//span[contains(text(),'Job Orders')]")
+	WebElement ClickOnJoborder;
+	
+	public SettingPage ClickOnJoborder()
+	{
+		ClickOnJoborder.click();//if we are clicking  on link then it should return landing page object
+		return new SettingPage();
+	}
+	
+	
+	@FindBy(xpath="//a[@id='4']")
+	WebElement ClickOnCustomersupport;
+	
+	public SettingPage ClickOnCustomersupport()
+	{
+		ClickOnCustomersupport.click();//if we are clicking  on link then it should return landing page object
+		return new SettingPage();
+	}
+	
 	@FindBy(xpath="//a[@id='nav-icon']")
 	WebElement ClickOnHomepagesidemenu;
 	

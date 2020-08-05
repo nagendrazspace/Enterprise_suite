@@ -3,6 +3,8 @@ package com.quickmove.qa.testcases;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -64,6 +66,17 @@ public class PackingMaterialAdd extends TestBase {
 		packingMaterial.EnterSize(Size);
 		packingMaterial.Selectunit(unit);
 		packingMaterial.Selectcost(cost);
+		driver.findElement(By.xpath("//input[@id='ctl00_ContentPlaceHolder1_txtAsset']")).sendKeys("Packing material");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//input[@id='ctl00_ContentPlaceHolder1_txtAsset']")).sendKeys(Keys.ARROW_DOWN);
+		driver.findElement(By.xpath("//input[@id='ctl00_ContentPlaceHolder1_txtAsset']")).sendKeys(Keys.ENTER);
+		
+		
+		driver.findElement(By.xpath("//input[@id='ctl00_ContentPlaceHolder1_txtExpense']")).sendKeys("packing material");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//input[@id='ctl00_ContentPlaceHolder1_txtExpense']")).sendKeys(Keys.ARROW_DOWN);
+		driver.findElement(By.xpath("//input[@id='ctl00_ContentPlaceHolder1_txtExpense']")).sendKeys(Keys.ENTER);
+		
 		packingMaterial.ClickonSavebutton();
 		Thread.sleep(2000);
 	

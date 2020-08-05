@@ -50,7 +50,7 @@ public class VerifyJobOrderPagetest  extends TestBase{
 		 
 		 quotepage.Editfirstquote();
 		 quotepage.Clickonjobordericon();
-		 joborder.Enterjobpageaddress();
+		 joborder.Enterjobpageaddress("test");
 		 
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
 			WebElement statusbutton=driver.findElement(By.xpath("//select[@id='ctl00_ContentPlaceHolder1_Order_ddlIndividualCountry']"));

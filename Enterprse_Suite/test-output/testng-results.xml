@@ -1,961 +1,761 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="60" passed="60">
+<testng-results skipped="0" failed="0" ignored="0" total="25" passed="25">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="713326" started-at="2020-07-29T20:07:21 IST" finished-at="2020-07-29T20:19:14 IST">
+  <suite name="Default suite" duration-ms="222835" started-at="2020-08-04T17:23:32 IST" finished-at="2020-08-04T17:27:15 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="713326" started-at="2020-07-29T20:07:21 IST" finished-at="2020-07-29T20:19:14 IST">
-      <class name="com.quickmove.qa.testcases.addcity">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="setup" duration-ms="16731" started-at="2020-07-29T20:07:21 IST" finished-at="2020-07-29T20:07:38 IST">
+    <test name="Default test" duration-ms="222835" started-at="2020-08-04T17:23:32 IST" finished-at="2020-08-04T17:27:15 IST">
+      <class name="com.quickmove.qa.testcases.PackingMaterialAdd">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="setup" duration-ms="18855" started-at="2020-08-04T17:23:32 IST" finished-at="2020-08-04T17:23:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="12243" started-at="2020-07-29T20:07:39 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:07:51 IST">
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8597" started-at="2020-08-04T17:23:52 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:24:01 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Carton Printed]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[DUBAI Production City]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45x45x45, 5 PLY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11680" started-at="2020-07-29T20:07:51 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:08:03 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8951" started-at="2020-08-04T17:24:01 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:24:09 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Carton Printed]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Emirates Hill]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45x45x70, 5 PLY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11511" started-at="2020-07-29T20:08:03 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:08:15 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8883" started-at="2020-08-04T17:24:09 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:24:18 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Carton Printed]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Falcon city of wonders]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[49x49x49, 5 PLY ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11717" started-at="2020-07-29T20:08:15 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:08:26 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8699" started-at="2020-08-04T17:24:18 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:24:27 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Carton Printed]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Greens]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[49x49x70, 5 PLY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11695" started-at="2020-07-29T20:08:26 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:08:38 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8309" started-at="2020-08-04T17:24:27 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:24:35 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Carton Printed]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Hatta]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45x45x45, 3 PLY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11728" started-at="2020-07-29T20:08:38 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:08:50 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8352" started-at="2020-08-04T17:24:35 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:24:44 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Carton Printed]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Hor Al Anz]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45x45x70, 3 PLY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11912" started-at="2020-07-29T20:08:50 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:09:02 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8367" started-at="2020-08-04T17:24:44 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:24:52 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Carton Printed]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[International City]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[49x49x49, 3 PLY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11684" started-at="2020-07-29T20:09:02 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:09:13 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8533" started-at="2020-08-04T17:24:52 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:25:01 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Carton Printed]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[JBR]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[49x49x70, 3 PLY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11596" started-at="2020-07-29T20:09:13 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:09:25 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8496" started-at="2020-08-04T17:25:01 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:25:09 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Carton Normal]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Jebel Ali]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45x45x45, 5 PLY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11654" started-at="2020-07-29T20:09:25 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:09:37 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8453" started-at="2020-08-04T17:25:09 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:25:18 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Carton Normal]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Jebel Ali Palm]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45x45x70, 5 PLY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11648" started-at="2020-07-29T20:09:37 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:09:48 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8113" started-at="2020-08-04T17:25:18 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:25:26 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Bubble Roll]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Jebel Ali Village]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kgs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11609" started-at="2020-07-29T20:09:48 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:10:00 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8179" started-at="2020-08-04T17:25:26 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:25:34 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Packing Paper]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Jumeira 1]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kgs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11720" started-at="2020-07-29T20:10:00 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:10:12 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8323" started-at="2020-08-04T17:25:34 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:25:42 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Strech Film]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Jumeira 2]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.8 x 300 grm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Roll]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11528" started-at="2020-07-29T20:10:12 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:10:23 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8176" started-at="2020-08-04T17:25:42 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:25:50 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Tape Brown]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Jumeira 3]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2"x85 yrd ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="12098" started-at="2020-07-29T20:10:23 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:10:35 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8423" started-at="2020-08-04T17:25:50 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:25:59 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Flat Sheet]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Jumeirah Golf Estates]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[120 x 220 cm X 3 PLY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="12208" started-at="2020-07-29T20:10:35 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:10:47 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8453" started-at="2020-08-04T17:25:59 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:26:07 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Flat Sheet]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Jumeirah Heights]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[120 x 210 cm X 3 PLY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11712" started-at="2020-07-29T20:10:47 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:10:59 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8627" started-at="2020-08-04T17:26:07 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:26:16 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Flat Sheet]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Jumeirah Islands]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[120 x 220 cm X 5 PLY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="12530" started-at="2020-07-29T20:10:59 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:11:12 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8518" started-at="2020-08-04T17:26:16 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:26:24 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Flat Sheet]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Jumeirah Lake Towers]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[120 x 210 cm X 5 PLY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11711" started-at="2020-07-29T20:11:12 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:11:23 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8536" started-at="2020-08-04T17:26:24 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:26:33 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Book Box]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Jumeirah Park]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36 ( H) X 30 (w) X 50 ( L) 5 PLY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="12306" started-at="2020-07-29T20:11:23 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:11:36 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8413" started-at="2020-08-04T17:26:33 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:26:41 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Blanket Roll]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Jumeirah Village Circle]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[250 GSM  2x50 mtr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="12324" started-at="2020-07-29T20:11:36 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:11:48 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8430" started-at="2020-08-04T17:26:41 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:26:50 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Blanket Siiched]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Jumeirah Village Triangle]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[250 GSM  2x2.5 mtr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11694" started-at="2020-07-29T20:11:48 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:12:00 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8224" started-at="2020-08-04T17:26:50 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:26:58 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Hanger Boxes]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Layan Community]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11746" started-at="2020-07-29T20:12:00 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:12:11 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8145" started-at="2020-08-04T17:26:58 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:27:06 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Hanger Boxes ROD]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Legends]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="12087" started-at="2020-07-29T20:12:11 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:12:24 IST">
+        </test-method> <!-- PackingMaterial -->
+        <test-method status="PASS" signature="PackingMaterial(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.PackingMaterialAdd@1f7030a6]" name="PackingMaterial" duration-ms="8366" started-at="2020-08-04T17:27:06 IST" data-provider="gettestMaterial" finished-at="2020-08-04T17:27:15 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DUBAI]]>
+                <![CDATA[Plastic Containers(Boxes)]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Liwan]]>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11483" started-at="2020-07-29T20:12:24 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:12:35 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Majan]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11586" started-at="2020-07-29T20:12:35 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:12:47 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Marsa Al Khor]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11654" started-at="2020-07-29T20:12:47 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:12:58 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Meadows]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11724" started-at="2020-07-29T20:12:58 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:13:10 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Mira Community]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11318" started-at="2020-07-29T20:13:10 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:13:21 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Mirdif]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11494" started-at="2020-07-29T20:13:21 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:13:33 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Motor City]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11518" started-at="2020-07-29T20:13:33 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:13:44 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Mudon]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11517" started-at="2020-07-29T20:13:44 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:13:56 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Muhaisanah]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11821" started-at="2020-07-29T20:13:56 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:14:08 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Nad Al Hammar]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11879" started-at="2020-07-29T20:14:08 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:14:20 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Nad Shamma]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11949" started-at="2020-07-29T20:14:20 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:14:31 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Nadd Al Shiba]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11315" started-at="2020-07-29T20:14:31 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:14:43 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Naif]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="12287" started-at="2020-07-29T20:14:43 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:14:55 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Oud Al Muteena Third]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11581" started-at="2020-07-29T20:14:55 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:15:07 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Oud Metha]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11757" started-at="2020-07-29T20:15:07 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:15:18 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Palm Jumeira]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11833" started-at="2020-07-29T20:15:18 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:15:30 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Port Saeed]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11723" started-at="2020-07-29T20:15:30 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:15:42 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Ras Al Khor]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11640" started-at="2020-07-29T20:15:42 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:15:54 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Reemram]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11880" started-at="2020-07-29T20:15:54 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:16:06 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Rigga Al Buteen]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11561" started-at="2020-07-29T20:16:06 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:16:17 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Riverside]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11952" started-at="2020-07-29T20:16:17 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:16:29 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sports City]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11697" started-at="2020-07-29T20:16:29 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:16:41 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Springs]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11608" started-at="2020-07-29T20:16:41 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:16:52 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sustainable City]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11546" started-at="2020-07-29T20:16:52 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:17:04 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[The Gardens]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11750" started-at="2020-07-29T20:17:04 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:17:16 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[The Lakes]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11614" started-at="2020-07-29T20:17:16 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:17:27 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[The Villa]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11598" started-at="2020-07-29T20:17:27 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:17:39 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Trade Centre]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11584" started-at="2020-07-29T20:17:39 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:17:50 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Umm Al Sheif]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11907" started-at="2020-07-29T20:17:50 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:18:02 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Umm Hurair]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11868" started-at="2020-07-29T20:18:02 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:18:14 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Umm Ramool]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="12019" started-at="2020-07-29T20:18:14 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:18:26 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Umm Suqeim 1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11970" started-at="2020-07-29T20:18:26 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:18:38 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Umm Suqeim 2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11914" started-at="2020-07-29T20:18:38 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:18:50 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Umm Suqeim 2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="12162" started-at="2020-07-29T20:18:50 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:19:02 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Wadi Alamardi]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-        <test-method status="PASS" signature="validateaddarticle(java.lang.String, java.lang.String)[pri:1, instance:com.quickmove.qa.testcases.addcity@1f7030a6]" name="validateaddarticle" duration-ms="11894" started-at="2020-07-29T20:19:02 IST" data-provider="gettestdataarticle" finished-at="2020-07-29T20:19:14 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DUBAI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Warsan]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateaddarticle -->
-      </class> <!-- com.quickmove.qa.testcases.addcity -->
+        </test-method> <!-- PackingMaterial -->
+      </class> <!-- com.quickmove.qa.testcases.PackingMaterialAdd -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
