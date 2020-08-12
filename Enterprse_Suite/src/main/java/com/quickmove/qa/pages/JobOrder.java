@@ -3,6 +3,7 @@ package com.quickmove.qa.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -147,13 +148,13 @@ public void EnterMobile(String mobile){
 //	action.moveToElement(driver.findElement(By.xpath("//div[@id='ctl00_ContentPlaceHolder1_Order_divCustomerDetails']//div[1]//ul[1]//li[2]//div[1]//div[1]//ul[1]")));
 //		action.build();
 //		action.click();
-		
+/*		
 	Select sel= new Select(driver.findElement(By.xpath("//div[@id='ctl00_ContentPlaceHolder1_Order_divCustomerDetails']//div[1]//ul[1]//li[2]//div[1]//div[1]//ul[1]")));	
 		
 	sel.selectByVisibleText("India");
 	Thread.sleep(2000);
 		Entercountrycode.sendKeys(countrycode);
-			
+			*/
 		}
 	//div[@id='ctl00_ContentPlaceHolder1_Order_divCustomerDetails']//div[1]//ul[1]//li[2]//div[1]//div[1]//ul[1]
 	
@@ -264,8 +265,9 @@ public void SaveJoborderbutton(){
 	SaveJoborderbutton.click();
 }
 public void setdate(String date) {
-	
-	((JavascriptExecutor)driver).executeScript("document.getElementById('ctl00_ContentPlaceHolder1_Order_txtPackingDate').setAttribute('value',date)");
+	WebElement setdate=driver.findElement(By.xpath("//input[@id='ctl00_ContentPlaceHolder1_Order_txtPackingDate']"));
+	setdate.sendKeys(date);
+//	((JavascriptExecutor)driver).executeScript("document.getElementById('ctl00_ContentPlaceHolder1_Order_txtPackingDate').setAttribute('value',date)");
 }
 
 }
