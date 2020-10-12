@@ -14,6 +14,15 @@ public class HomePage extends TestBase{
 	@FindBy(xpath="//span[contains(text(),'Job Orders')]")
 	WebElement ClickOnJoborder;
 	
+	@FindBy(xpath="//a[@id='10']")
+	WebElement CLICKonProcurment;
+	
+	public SettingPage CLICKonProcurment()
+	{
+		CLICKonProcurment.click();//if we are clicking  on link then it should return landing page object
+		return new SettingPage();
+	}
+	
 	public SettingPage ClickOnJoborder()
 	{
 		ClickOnJoborder.click();//if we are clicking  on link then it should return landing page object

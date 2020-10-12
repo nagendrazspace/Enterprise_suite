@@ -150,7 +150,7 @@ public class AddRoomSettingpage extends TestBase{
 	
 	public void retryiclickelement(By firstelement)
 	{
-	 for(int attempt=0;attempt<=20;attempt++)
+	 for(int attempt=0;attempt<=86;attempt++)
 	 {
 		 driver.findElement(firstelement).click();
 	 }

@@ -73,6 +73,8 @@ public void CreateJoborder(String salu, String fname,String Mname,String Lname,S
 	   if (li.getText().equals("India 91")) {
 	       li.click();
 	      } */
+
+	 
 	 String before_xpath="//div[@id='ctl00_ContentPlaceHolder1_Order_divCustomerDetails']//div[1]//ul[1]//li[2]//div[1]//div[1]//ul[1]//li[";
 			 String After_xpath="]";
 			 for(int i=1; i<=221;i++){
@@ -130,7 +132,7 @@ public void CreateJoborder(String salu, String fname,String Mname,String Lname,S
 	//  elementFromDate.clear();
 //	  elementFromDate.sendKeys("18-Aug-2017"); //Enter date in required format
 	
-	joborder.setdate(packdate);
+//	joborder.setdate(packdate);
 	
 	
 //	((JavascriptExecutor)driver).executeScript("document.getElementById('ctl00_ContentPlaceHolder1_Order_txtPackingDate').setAttribute('value','04 aug 2020')");
